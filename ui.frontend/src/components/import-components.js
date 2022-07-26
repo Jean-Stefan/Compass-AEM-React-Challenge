@@ -21,6 +21,7 @@ import './ExperienceFragment/ExperienceFragment';
 
 import Button from './micro/Button/Button';
 import Title from './micro/Title/Title';
+import Text from './micro/Text/Text';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -127,5 +128,10 @@ MapTo('reactapp/components/react-button')(Button, {
 
 MapTo('reactapp/components/react-title')(Title, {
     emptyLabel: 'React Title',
+    authorAcessibility,
+});
+
+MapTo('reactapp/components/react-text')(Text, {
+    emptyLabel: 'React Text',
     authorAcessibility,
 });
