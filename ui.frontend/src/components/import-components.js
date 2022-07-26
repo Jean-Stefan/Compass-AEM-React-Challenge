@@ -20,6 +20,7 @@ import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 
 import Button from './micro/Button/Button';
+import Title from './micro/Title/Title';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -121,5 +122,10 @@ const authorAcessibility = {isEmpty: (props) => !props.any};
 
 MapTo('reactapp/components/react-button')(Button, {
     emptyLabel: 'React Button',
+    authorAcessibility,
+});
+
+MapTo('reactapp/components/react-title')(Title, {
+    emptyLabel: 'React Title',
     authorAcessibility,
 });
