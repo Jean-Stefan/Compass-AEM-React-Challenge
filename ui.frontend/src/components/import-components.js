@@ -23,6 +23,7 @@ import Button from './micro/Button/Button';
 import Title from './micro/Title/Title';
 import Text from './micro/Text/Text';
 import Logo from './micro/Logo/Logo';
+import Image from './micro/Image/Image';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -139,5 +140,10 @@ MapTo('reactapp/components/react-text')(Text, {
 
 MapTo('reactapp/components/react-logo')(Logo, {
     emptyLabel: 'React Logo',
+    authorAcessibility,
+});
+
+MapTo('reactapp/components/react-image')(Image, {
+    emptyLabel: 'React Image',
     authorAcessibility,
 });
