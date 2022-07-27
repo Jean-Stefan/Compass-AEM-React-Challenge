@@ -34,6 +34,6 @@ public interface ReactFooterText
 
 
     @JsonProperty("text")
-    String getFootertext();
+    String getText();
 
 }

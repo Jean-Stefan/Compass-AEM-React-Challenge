@@ -42,14 +42,14 @@ public class ReactFooterTextImpl
 {
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private String footertext;
+    private String text;
     @SlingObject
     private Resource resource;
 
     @Override
     @JsonProperty("text")
-    public String getFootertext() {
-        return footertext;
+    public String getText() {
+        return text;
     }
 
     @Override
