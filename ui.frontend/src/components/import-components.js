@@ -24,6 +24,7 @@ import Title from './micro/Title/Title';
 import Text from './micro/Text/Text';
 import Logo from './micro/Logo/Logo';
 import Image from './micro/Image/Image';
+import FooterText from './micro/FooterText/FooterText';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -145,5 +146,10 @@ MapTo('reactapp/components/react-logo')(Logo, {
 
 MapTo('reactapp/components/react-image')(Image, {
     emptyLabel: 'React Image',
+    authorAcessibility,
+});
+
+MapTo('reactapp/components/react-footer-text')(FooterText, {
+    emptyLabel: 'React Footer Text',
     authorAcessibility,
 });
