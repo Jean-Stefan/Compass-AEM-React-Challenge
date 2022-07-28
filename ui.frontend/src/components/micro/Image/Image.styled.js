@@ -4,7 +4,7 @@ const StyledImage = styled.img`
     width: 539px;
     height: 447px;
 
-    @media (max-width) {
+    @media (max-width: 768px) {
         width: 287px;
         height: 447px;
         margin-bottom: 60px;
