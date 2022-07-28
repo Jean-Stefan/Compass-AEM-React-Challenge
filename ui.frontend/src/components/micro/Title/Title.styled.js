@@ -7,6 +7,10 @@ const StyledTitle = styled.h1`
     color: #333333;
     letter-spacing: -0.035em;
     line-height: 95px;
+    @media (max-width: 768px) {
+        font-size: 48px;
+        line-height: 71px;
+    }
 `;
 
 export default StyledTitle;
