@@ -7,6 +7,7 @@ const StyledImage = styled.img`
     @media (max-width) {
         width: 287px;
         height: 447px;
+        margin-bottom: 60px;
     }
 `;
 
