@@ -7,6 +7,11 @@ const StyledLogo = styled.h4`
     letter-spacing: -0.08em;
     text-transform: uppercase;
     color: #333333;
+    margin: 0 0 200px 0;
+
+    @media (max-width: 768px) {
+        margin: 0 0 64px 0;
+    }
 `;
 
 export default StyledLogo;
