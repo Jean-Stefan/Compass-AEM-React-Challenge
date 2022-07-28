@@ -30,6 +30,7 @@ body {
 
 body {
     background-color: #ffffff;
+    padding: 0 !important;
 }
 
 h1,

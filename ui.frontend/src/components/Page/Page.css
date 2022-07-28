@@ -16,4 +16,11 @@
 
 .page {
     margin: 0 auto;
+    padding: 40px 119px 24px 77px;
+}
+
+@media (max-width: 768px) {
+    .page {
+        padding: 24px;
+    }
 }
