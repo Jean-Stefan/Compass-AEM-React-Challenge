@@ -1,8 +1,13 @@
 import styled from 'styled-components';
 
 const StyledImage = styled.img`
-    max-width: 100%;
-    object-fit: contain;
+    width: 539px;
+    height: 447px;
+
+    @media (max-width) {
+        width: 287px;
+        height: 447px;
+    }
 `;
 
 export default StyledImage;
