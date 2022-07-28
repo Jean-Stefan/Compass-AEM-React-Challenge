@@ -8,6 +8,10 @@ const StyledText = styled.p`
     line-height: 36px;
     letter-spacing: -0.035em;
     color: #4f4f4f;
+    @media (max-width: 768px) {
+        font-size: 18px;
+        line-height: 27px;
+    }
 `;
 
 export default StyledText;
