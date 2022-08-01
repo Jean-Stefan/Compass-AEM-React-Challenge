@@ -22,6 +22,7 @@ import './ExperienceFragment/ExperienceFragment';
 import Logo from './micro/Logo/Logo';
 import Image from './micro/Image/Image';
 import FooterText from './micro/FooterText/FooterText';
+import ReactMainContainer from './Container/ReactMainContainer/ReactMainContainer';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -133,5 +134,10 @@ MapTo('reactapp/components/react-image')(Image, {
 
 MapTo('reactapp/components/react-footer-text')(FooterText, {
     emptyLabel: 'React Footer Text',
+    authorAcessibility,
+});
+
+MapTo('reactapp/components/react-main-container')(ReactMainContainer, {
+    emptyLabel: 'React Main Container',
     authorAcessibility,
 });
