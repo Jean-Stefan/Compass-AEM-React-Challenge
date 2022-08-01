@@ -33,21 +33,41 @@
          <column jcr:primaryType="nt:unstructured"
                  sling:resourceType="granite/ui/components/coral/foundation/container">
             <items jcr:primaryType="nt:unstructured">
-               <text cq-msm-lockable="./text"
-                     fieldLabel="Insert a text."
-                     jcr:primaryType="nt:unstructured"
-                     name="./text"
-                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
                <title cq-msm-lockable="./title"
                       fieldLabel="Insert a title."
                       jcr:primaryType="nt:unstructured"
                       name="./title"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <titleColor cq-msm-lockable="./titleColor"
+                           fieldLabel="Insert a color for title."
+                           jcr:primaryType="nt:unstructured"
+                           name="./titleColor"
+                           sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"/>
+               <text cq-msm-lockable="./text"
+                     fieldLabel="Insert a text."
+                     jcr:primaryType="nt:unstructured"
+                     name="./text"
+                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <textColor cq-msm-lockable="./textColor"
+                          fieldLabel="Insert a color for text."
+                          jcr:primaryType="nt:unstructured"
+                          name="./textColor"
+                          sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"/>
                <button cq-msm-lockable="./button"
                        fieldLabel="Insert a button name."
                        jcr:primaryType="nt:unstructured"
                        name="./button"
                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <buttonBkgdColor cq-msm-lockable="./buttonBkgdColor"
+                                fieldLabel="Insert a color for button background."
+                                jcr:primaryType="nt:unstructured"
+                                name="./buttonBkgdColor"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"/>
+               <buttonTextColor cq-msm-lockable="./buttonTextColor"
+                                fieldLabel="Insert a color for button text."
+                                jcr:primaryType="nt:unstructured"
+                                name="./buttonTextColor"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"/>
             </items>
          </column>
       </items>
