@@ -19,8 +19,9 @@ import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 
-import Button from './micro/Button/Button';
-import Title from './micro/Title/Title';
+import Logo from './micro/Logo/Logo';
+import Image from './micro/Image/Image';
+import FooterText from './micro/FooterText/FooterText';
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
@@ -120,12 +121,17 @@ MapTo('reactapp/components/text')(LazyTextComponent, TextEditConfig);
 
 const authorAcessibility = {isEmpty: (props) => !props.any};
 
-MapTo('reactapp/components/react-button')(Button, {
-    emptyLabel: 'React Button',
+MapTo('reactapp/components/react-logo')(Logo, {
+    emptyLabel: 'React Logo',
     authorAcessibility,
 });
 
-MapTo('reactapp/components/react-title')(Title, {
-    emptyLabel: 'React Title',
+MapTo('reactapp/components/react-image')(Image, {
+    emptyLabel: 'React Image',
+    authorAcessibility,
+});
+
+MapTo('reactapp/components/react-footer-text')(FooterText, {
+    emptyLabel: 'React Footer Text',
     authorAcessibility,
 });

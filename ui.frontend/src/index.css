@@ -16,6 +16,8 @@
 
 /* Global styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
 html,
 body {
     border: 0;
@@ -28,6 +30,7 @@ body {
 
 body {
     background-color: #ffffff;
+    padding: 0 !important;
 }
 
 h1,
