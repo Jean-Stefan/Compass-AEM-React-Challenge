@@ -8,7 +8,7 @@ const StyledText = styled.p`
     font-size: 24px;
     line-height: 36px;
     letter-spacing: -0.035em;
-    color: #4f4f4f;
+    color: ${({color}) => color || '#4f4f4f'};
     margin: 0 0 64px 0;
 
     @media (max-width: 768px) {
