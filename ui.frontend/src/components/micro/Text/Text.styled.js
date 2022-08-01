@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const StyledText = styled.p`
+    width: 100%;
     font-family: 'Space Mono', monospace;
     font-style: normal;
     font-weight: 400;
