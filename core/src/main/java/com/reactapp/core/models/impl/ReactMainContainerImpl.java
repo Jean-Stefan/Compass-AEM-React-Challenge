@@ -42,19 +42,21 @@ public class ReactMainContainerImpl
 {
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private String text;
-    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String title;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String titleColor;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String text;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String textColor;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String button;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String buttonBkgdColor;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String buttonTextColor;
     @SlingObject
     private Resource resource;
-
-    @Override
-    @JsonProperty("text")
-    public String getText() {
-        return text;
-    }
 
     @Override
     @JsonProperty("title")
@@ -63,9 +65,39 @@ public class ReactMainContainerImpl
     }
 
     @Override
+    @JsonProperty("titleColor")
+    public String getTitleColor() {
+        return titleColor;
+    }
+
+    @Override
+    @JsonProperty("text")
+    public String getText() {
+        return text;
+    }
+
+    @Override
+    @JsonProperty("textColor")
+    public String getTextColor() {
+        return textColor;
+    }
+
+    @Override
     @JsonProperty("button")
     public String getButton() {
         return button;
+    }
+
+    @Override
+    @JsonProperty("buttonBkgdColor")
+    public String getButtonBkgdColor() {
+        return buttonBkgdColor;
+    }
+
+    @Override
+    @JsonProperty("buttonTextColor")
+    public String getButtonTextColor() {
+        return buttonTextColor;
     }
 
     @Override
