@@ -34,10 +34,15 @@
                  sling:resourceType="granite/ui/components/coral/foundation/container">
             <items jcr:primaryType="nt:unstructured">
                <text cq-msm-lockable="./text"
-                     fieldLabel="Text."
+                     fieldLabel="Insert a text for logo."
                      jcr:primaryType="nt:unstructured"
                      name="./text"
                      sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <textColor cq-msm-lockable="./textColor"
+                          fieldLabel="Insert a color for logo."
+                          jcr:primaryType="nt:unstructured"
+                          name="./textColor"
+                          sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"/>
             </items>
          </column>
       </items>

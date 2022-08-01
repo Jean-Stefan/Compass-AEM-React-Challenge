@@ -4,12 +4,22 @@ import Title from '../../micro/Title/Title';
 import Text from '../../micro/Text/Text';
 import Button from '../../micro/Button/Button';
 
-const ReactMainContainer = ({title, text, button}) => {
+const ReactMainContainer = ({
+    title,
+    titleColor,
+    text,
+    textColor,
+    button,
+    buttonTextColor,
+    buttonBkgdColor,
+}) => {
     return (
         <StlyedContainer>
-            <Title>{title}</Title>
-            <Text>{text}</Text>
-            <Button>{button}</Button>
+            <Title color={titleColor}>{title}</Title>
+            <Text color={textColor}>{text}</Text>
+            <Button color={buttonTextColor} background={buttonBkgdColor}>
+                {button}
+            </Button>
         </StlyedContainer>
     );
 };
