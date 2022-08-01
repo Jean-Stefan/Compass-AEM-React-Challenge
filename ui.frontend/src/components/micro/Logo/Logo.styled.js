@@ -7,7 +7,7 @@ const StyledLogo = styled.h4`
     font-size: 24px;
     letter-spacing: -0.08em;
     text-transform: uppercase;
-    color: #333333;
+    color: ${({textColor}) => textColor || '#333333'};
     margin: 0 0 200px 0;
 
     @media (max-width: 1200px) {
