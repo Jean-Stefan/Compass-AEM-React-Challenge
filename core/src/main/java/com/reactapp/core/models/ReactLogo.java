@@ -24,11 +24,11 @@ import org.osgi.annotation.versioning.ConsumerType;
 
 
 /**
- * Defines the {@code ReactButton} Sling Model used for the {@code reactapp/components/react-button} component.
+ * Defines the {@code ReactLogo} Sling Model used for the {@code reactapp/components/react-logo} component.
  * 
  */
 @ConsumerType
-public interface ReactButton
+public interface ReactLogo
     extends ComponentExporter
 {
 
