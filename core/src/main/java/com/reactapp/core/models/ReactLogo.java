@@ -36,4 +36,7 @@ public interface ReactLogo
     @JsonProperty("text")
     String getText();
 
+    @JsonProperty("textColor")
+    String getTextColor();
+
 }

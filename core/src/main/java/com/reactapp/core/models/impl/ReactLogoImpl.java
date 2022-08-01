@@ -43,6 +43,8 @@ public class ReactLogoImpl
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String text;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String textColor;
     @SlingObject
     private Resource resource;
 
@@ -50,6 +52,12 @@ public class ReactLogoImpl
     @JsonProperty("text")
     public String getText() {
         return text;
+    }
+
+    @Override
+    @JsonProperty("textColor")
+    public String getTextColor() {
+        return textColor;
     }
 
     @Override
