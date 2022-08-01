@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const StyledLogo = styled.h4`
+    min-width: 160px;
     font-family: 'Inconsolata';
     font-weight: 700;
     font-size: 24px;
