@@ -19,8 +19,6 @@ import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
 
-import Button from './micro/Button/Button';
-
 import {MapTo} from '@adobe/aem-react-editable-components';
 
 import {CarouselV1IsEmptyFn} from '@adobe/aem-core-components-react-spa/dist/isEmptyFunctions';
@@ -118,8 +116,3 @@ const TextEditConfig = {
 MapTo('reactapp/components/text')(LazyTextComponent, TextEditConfig);
 
 const authorAcessibility = {isEmpty: (props) => !props.any};
-
-MapTo('reactapp/components/react-button')(Button, {
-    emptyLabel: 'React Button',
-    authorAcessibility,
-});
