@@ -9,7 +9,7 @@ const StyledLogo = styled.h4`
     color: #333333;
     margin: 0 0 200px 0;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1200px) {
         margin: 0 0 64px 0;
     }
 `;
