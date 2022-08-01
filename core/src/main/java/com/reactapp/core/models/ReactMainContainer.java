@@ -33,13 +33,25 @@ public interface ReactMainContainer
 {
 
 
-    @JsonProperty("text")
-    String getText();
-
     @JsonProperty("title")
     String getTitle();
 
+    @JsonProperty("titleColor")
+    String getTitleColor();
+
+    @JsonProperty("text")
+    String getText();
+
+    @JsonProperty("textColor")
+    String getTextColor();
+
     @JsonProperty("button")
     String getButton();
+
+    @JsonProperty("buttonBkgdColor")
+    String getButtonBkgdColor();
+
+    @JsonProperty("buttonTextColor")
+    String getButtonTextColor();
 
 }
