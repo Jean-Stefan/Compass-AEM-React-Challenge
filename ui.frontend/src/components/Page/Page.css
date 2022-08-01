@@ -24,3 +24,13 @@
         padding: 24px;
     }
 }
+
+.aem-GridColumn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.aem-GridColumn h4 {
+    flex: auto !important;
+}
