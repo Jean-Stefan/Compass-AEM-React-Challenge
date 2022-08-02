@@ -43,6 +43,8 @@ public class ReactFooterTextImpl
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String text;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String color;
     @SlingObject
     private Resource resource;
 
@@ -50,6 +52,12 @@ public class ReactFooterTextImpl
     @JsonProperty("text")
     public String getText() {
         return text;
+    }
+
+    @Override
+    @JsonProperty("color")
+    public String getColor() {
+        return color;
     }
 
     @Override

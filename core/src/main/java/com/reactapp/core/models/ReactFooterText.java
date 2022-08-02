@@ -36,4 +36,7 @@ public interface ReactFooterText
     @JsonProperty("text")
     String getText();
 
+    @JsonProperty("color")
+    String getColor();
+
 }
